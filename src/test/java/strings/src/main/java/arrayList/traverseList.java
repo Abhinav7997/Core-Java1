@@ -3,8 +3,14 @@ package arrayList;
 import java.util.ArrayList;
 
 public class traverseList {
+    public static void main(String[] args) {
 
-    public static void traverseArrayList(ArrayList<String> stringList) {
+        ArrayList<String> stringList = new ArrayList<>();
+        stringList.add("Mazda");
+        stringList.add("Benz");
+        stringList.add("Toyota");
+        stringList.add("Chevy");
+
         System.out.println("Traversing using a regular for loop:");
         for (int i = 0; i < stringList.size(); i++) {
             String element = stringList.get(i);
