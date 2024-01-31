@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbc611a-4b08-4414-b701-c548e6f02ee5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/setLists/hashSetIteration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/setLists/removeDuplicateChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/setLists/hashSetIterationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/setLists/removeDuplicateCharTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrayList/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayList/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrayList/removeLowGPAStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayList/removeLowGPAStudents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapList/findTargetSumMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapList/findTargetSumMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapList/studentHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapList/studentHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coreJavaPrograms/arraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coreJavaPrograms/factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coreJavaPrograms/palindromeCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coreJavaPrograms/repeatedChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coreJavaPrograms/swappingVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/coreJavaPrograms/arraySumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/coreJavaPrograms/factorialTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/coreJavaPrograms/palindromeCheckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/coreJavaPrograms/repeatedCharTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/coreJavaPrograms/swappingVariablesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/strings/src/main/java/Arrays/binarySearch.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/strings/src/main/java/Arrays/bubbleSort.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/strings/src/main/java/Arrays/minMaxNumber.java" beforeDir="false" />
@@ -52,8 +55,6 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/strings/src/test/java/strings/ReverseWordsTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/strings/src/test/java/strings/RotationCheckTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/strings/src/test/java/strings/VowelsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/arrayList/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arrayList/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/arrayList/removeLowGPAStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arrayList/removeLowGPAStudents.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +110,7 @@
     "JUnit.AnagramTest.testStringAnagram.executor": "Run",
     "JUnit.AnagramTest.testStringAnagram_Fail.executor": "Run",
     "JUnit.AnagramTest.testStringAnagram_Null.executor": "Run",
+    "JUnit.PalindromeCheckerTest.executor": "Run",
     "JUnit.RemoveLowGPAStudentsTest.executor": "Run",
     "JUnit.ReverseWordsTest.testReverseString.executor": "Run",
     "JUnit.ReverseWordsTest.testReverseString_EmptyString.executor": "Run",
@@ -130,9 +132,12 @@
     "JUnit.VowelsTest.testCountVowels_NoVowels.executor": "Run",
     "JUnit.VowelsTest.testCountVowels_NullString.executor": "Run",
     "JUnit.arrayListToArrayTest.executor": "Run",
+    "JUnit.arraySumTest.executor": "Run",
     "JUnit.characterCountMapTest.executor": "Run",
+    "JUnit.factorialTest.executor": "Run",
     "JUnit.findTargetSumMapTest.executor": "Run",
     "JUnit.hashSetIterationTest.executor": "Run",
+    "JUnit.palindromeCheckTest.executor": "Run",
     "JUnit.removeDuplicateCharTest.executor": "Run",
     "JUnit.removeLastElementTest.executor": "Run",
     "JUnit.removeLastElementTest.testRemoveLast.executor": "Run",
@@ -142,8 +147,10 @@
     "JUnit.removeLowGPAStudentsTest.testRemoveLowGPAStudents (1).executor": "Run",
     "JUnit.removeLowGPAStudentsTest.testRemoveLowGPAStudents.executor": "Run",
     "JUnit.removeLowGPAStudentsTest.testremoveLowGPAStudents.executor": "Run",
+    "JUnit.repeatedCharTest.executor": "Run",
     "JUnit.studentHashMapTest.executor": "Run",
     "JUnit.studentHashMapTest.testgetStudentByName.executor": "Run",
+    "JUnit.swappingVariablesTest.testSwapWithoutTemp.executor": "Run",
     "JUnit.traverseListTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.core-java1 [install].executor": "Run",
@@ -167,78 +174,78 @@
       <recent name="Strings" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.removeDuplicateCharTest">
-    <configuration name="hashSetIterationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.arraySumTest">
+    <configuration name="arraySumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="setLists.*" />
+          <option name="PATTERN" value="coreJavaPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="setLists" />
-      <option name="MAIN_CLASS_NAME" value="setLists.hashSetIterationTest" />
+      <option name="PACKAGE_NAME" value="coreJavaPrograms" />
+      <option name="MAIN_CLASS_NAME" value="coreJavaPrograms.arraySumTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="removeDuplicateCharTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="factorialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="setLists.*" />
+          <option name="PATTERN" value="coreJavaPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="setLists" />
-      <option name="MAIN_CLASS_NAME" value="setLists.removeDuplicateCharTest" />
+      <option name="PACKAGE_NAME" value="coreJavaPrograms" />
+      <option name="MAIN_CLASS_NAME" value="coreJavaPrograms.factorialTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="removeLowGPAStudentsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="palindromeCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayList.*" />
+          <option name="PATTERN" value="coreJavaPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayList" />
-      <option name="MAIN_CLASS_NAME" value="arrayList.removeLowGPAStudentsTest" />
+      <option name="PACKAGE_NAME" value="coreJavaPrograms" />
+      <option name="MAIN_CLASS_NAME" value="coreJavaPrograms.palindromeCheckTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="studentHashMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="repeatedCharTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mapList.*" />
+          <option name="PATTERN" value="coreJavaPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mapList" />
-      <option name="MAIN_CLASS_NAME" value="mapList.studentHashMapTest" />
+      <option name="PACKAGE_NAME" value="coreJavaPrograms" />
+      <option name="MAIN_CLASS_NAME" value="coreJavaPrograms.repeatedCharTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="studentHashMapTest.testgetStudentByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="swappingVariablesTest.testSwapWithoutTemp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mapList.*" />
+          <option name="PATTERN" value="coreJavaPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mapList" />
-      <option name="MAIN_CLASS_NAME" value="mapList.studentHashMapTest" />
-      <option name="METHOD_NAME" value="testgetStudentByName" />
+      <option name="PACKAGE_NAME" value="coreJavaPrograms" />
+      <option name="MAIN_CLASS_NAME" value="coreJavaPrograms.swappingVariablesTest" />
+      <option name="METHOD_NAME" value="testSwapWithoutTemp" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -259,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.removeDuplicateCharTest" />
-        <item itemvalue="JUnit.hashSetIterationTest" />
-        <item itemvalue="JUnit.removeLowGPAStudentsTest" />
-        <item itemvalue="JUnit.studentHashMapTest" />
-        <item itemvalue="JUnit.studentHashMapTest.testgetStudentByName" />
+        <item itemvalue="JUnit.arraySumTest" />
+        <item itemvalue="JUnit.repeatedCharTest" />
+        <item itemvalue="JUnit.factorialTest" />
+        <item itemvalue="JUnit.swappingVariablesTest.testSwapWithoutTemp" />
+        <item itemvalue="JUnit.palindromeCheckTest" />
       </list>
     </recent_temporary>
   </component>
