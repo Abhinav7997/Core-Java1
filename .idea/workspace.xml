@@ -5,10 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbc611a-4b08-4414-b701-c548e6f02ee5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/coreJavaPrograms/stringRotationChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coreJavaPrograms/uniqueWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/coreJavaPrograms/stringRotationCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customExceptions/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customExceptions/FilereaderEX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customExceptions/InsufficientFundsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customExceptions/InvalidWithdrawalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customExceptions/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streamsAndLambdas/AverageOfOddSquares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streamsAndLambdas/CapitalizeAndSortStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streamsAndLambdas/MathOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streamsAndLambdas/MaxStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streamsAndLambdas/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streamsAndLambdas/SortingStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streamsAndLambdas/StringsByLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streamsAndLambdas/StringsContainingVowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/customExceptions/BankAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streamsAndLambdas/AverageOfOddSquaresTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streamsAndLambdas/CapitalizeAndSortStringsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streamsAndLambdas/MathOperationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streamsAndLambdas/MaxStringsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streamsAndLambdas/RemoveDuplicatesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streamsAndLambdas/SortingStringsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streamsAndLambdas/StringsByLengthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streamsAndLambdas/StringsContainingVowelsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core-java1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/stringToInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/stringToInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/strings/src/main/java/Arrays/binarySearch.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/strings/src/main/java/Arrays/bubbleSort.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/strings/src/main/java/Arrays/minMaxNumber.java" beforeDir="false" />
@@ -48,6 +69,7 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/strings/src/test/java/strings/ReverseWordsTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/strings/src/test/java/strings/RotationCheckTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/strings/src/test/java/strings/VowelsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exceptions/stringToInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exceptions/stringToInt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +83,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -89,6 +112,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Anagram.executor": "Run",
     "Application.CharacterCountMapTest.executor": "Run",
+    "Application.FilereaderEX.executor": "Run",
     "Application.ReverseWords.executor": "Run",
     "Application.arrayListToArray.executor": "Run",
     "Application.arrayListTraversal.executor": "Run",
@@ -104,7 +128,18 @@
     "JUnit.AnagramTest.testStringAnagram.executor": "Run",
     "JUnit.AnagramTest.testStringAnagram_Fail.executor": "Run",
     "JUnit.AnagramTest.testStringAnagram_Null.executor": "Run",
+    "JUnit.AverageOfOddSquaresTest.executor": "Run",
+    "JUnit.BankAccountTest.executor": "Run",
+    "JUnit.CapitalizeAndSortStringsTest.executor": "Run",
+    "JUnit.MathOperationsTest.executor": "Run",
+    "JUnit.MaxStringsTest.executor": "Run",
     "JUnit.PalindromeCheckerTest.executor": "Run",
+    "JUnit.RemoveDuplicateTest (1).executor": "Run",
+    "JUnit.RemoveDuplicateTest.TestFindDistinctNumbers.executor": "Run",
+    "JUnit.RemoveDuplicateTest.TestFindDistinctNumbersEmpty.executor": "Run",
+    "JUnit.RemoveDuplicateTest.executor": "Run",
+    "JUnit.RemoveDuplicatesTest.executor": "Run",
+    "JUnit.RemoveDuplicatesTest.testRemoveDuplicatesWithEmptyList.executor": "Run",
     "JUnit.RemoveLowGPAStudentsTest.executor": "Run",
     "JUnit.ReverseWordsTest.testReverseString.executor": "Run",
     "JUnit.ReverseWordsTest.testReverseString_EmptyString.executor": "Run",
@@ -119,7 +154,13 @@
     "JUnit.RotationCheckTest.testIsRotation_NullStrings.executor": "Run",
     "JUnit.RotationCheckTest.testIsRotation_PartialRotation.executor": "Run",
     "JUnit.RotationCheckTest.testIsRotation_True.executor": "Run",
+    "JUnit.SortingStringsTest.executor": "Run",
+    "JUnit.SortingStringsTest.testStringSort.executor": "Run",
     "JUnit.StringRotationCheckerTest.executor": "Run",
+    "JUnit.StringToIntTest.executor": "Run",
+    "JUnit.StringsByLengthTest.executor": "Run",
+    "JUnit.StringsContainingVowelsTest.executor": "Run",
+    "JUnit.StringsStartWithATest.executor": "Run",
     "JUnit.VowelsTest.executor": "Coverage",
     "JUnit.VowelsTest.testCountVowels.executor": "Run",
     "JUnit.VowelsTest.testCountVowels_AllVowels.executor": "Run",
@@ -144,6 +185,7 @@
     "JUnit.removeLowGPAStudentsTest.testremoveLowGPAStudents.executor": "Run",
     "JUnit.repeatedCharTest.executor": "Run",
     "JUnit.stringRotationCheckerTest.executor": "Run",
+    "JUnit.stringToIntTest.executor": "Run",
     "JUnit.studentHashMapTest.executor": "Run",
     "JUnit.studentHashMapTest.testgetStudentByName.executor": "Run",
     "JUnit.swappingVariablesTest.executor": "Run",
@@ -171,75 +213,78 @@
       <recent name="Strings" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.stringToIntTest">
-    <configuration name="uniqueWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coreJavaPrograms.uniqueWord" />
+  <component name="RunManager">
+    <configuration name="RemoveDuplicatesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coreJavaPrograms.*" />
+          <option name="PATTERN" value="streamsAndLambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringRotationCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core-java1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="coreJavaPrograms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="coreJavaPrograms" />
-      <option name="MAIN_CLASS_NAME" value="coreJavaPrograms.StringRotationCheckerTest" />
+      <option name="PACKAGE_NAME" value="streamsAndLambdas" />
+      <option name="MAIN_CLASS_NAME" value="streamsAndLambdas.RemoveDuplicatesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringToIntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveDuplicatesTest.testRemoveDuplicatesWithEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="streamsAndLambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="exceptions" />
-      <option name="MAIN_CLASS_NAME" value="exceptions.StringToIntTest" />
+      <option name="PACKAGE_NAME" value="streamsAndLambdas" />
+      <option name="MAIN_CLASS_NAME" value="streamsAndLambdas.RemoveDuplicatesTest" />
+      <option name="METHOD_NAME" value="testRemoveDuplicatesWithEmptyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringsByLengthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core-java1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streamsAndLambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="streamsAndLambdas" />
+      <option name="MAIN_CLASS_NAME" value="streamsAndLambdas.StringsByLengthTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stringRotationCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringsContainingVowelsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coreJavaPrograms.*" />
+          <option name="PATTERN" value="streamsAndLambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="coreJavaPrograms" />
-      <option name="MAIN_CLASS_NAME" value="coreJavaPrograms.stringRotationCheckerTest" />
+      <option name="PACKAGE_NAME" value="streamsAndLambdas" />
+      <option name="MAIN_CLASS_NAME" value="streamsAndLambdas.StringsContainingVowelsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stringToIntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringsStartWithATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="streamsAndLambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="exceptions" />
-      <option name="MAIN_CLASS_NAME" value="exceptions.stringToIntTest" />
+      <option name="PACKAGE_NAME" value="streamsAndLambdas" />
+      <option name="MAIN_CLASS_NAME" value="streamsAndLambdas.StringsStartWithATest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -260,11 +305,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.stringToIntTest" />
-        <item itemvalue="JUnit.StringToIntTest" />
-        <item itemvalue="Application.uniqueWord" />
-        <item itemvalue="JUnit.stringRotationCheckerTest" />
-        <item itemvalue="JUnit.StringRotationCheckerTest" />
+        <item itemvalue="JUnit.StringsContainingVowelsTest" />
+        <item itemvalue="JUnit.RemoveDuplicatesTest.testRemoveDuplicatesWithEmptyList" />
+        <item itemvalue="JUnit.RemoveDuplicatesTest" />
+        <item itemvalue="JUnit.StringsStartWithATest" />
+        <item itemvalue="JUnit.StringsByLengthTest" />
       </list>
     </recent_temporary>
   </component>
